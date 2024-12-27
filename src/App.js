@@ -9,7 +9,7 @@ import FilterByRate from "./Components/Rating";
 function App() {
 	const [movies, setMovies] = useState(moviesData);
 	const [inputSearch, setInputSearch] = useState("");
-	const [rating, setRating] = useState(0);
+	const [rating, setRating] = useState(1);
 
 	const add = (newMovie) => {
 		setMovies([...movies, newMovie]);
